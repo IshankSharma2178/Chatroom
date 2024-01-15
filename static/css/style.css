@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pick{
+    
+    width: 100%;
+} 
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+.join{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.message-box{
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: rgb(233, 229, 229);
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.message{
+    overflow-y: scroll;
+    flex: 1;
+    width: 100%;
+}
+.inputs{
+    padding: 10px;
+    display: flex;
+}
+h2{
+    text-align: center;
+}
+#message{
+    flex: 1;
+}
